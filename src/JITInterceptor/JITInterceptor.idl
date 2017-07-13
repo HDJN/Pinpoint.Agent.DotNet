@@ -1,0 +1,29 @@
+import "oaidl.idl";
+import "ocidl.idl";
+
+[
+object,
+uuid(C546F9ED-7767-43A3-BCF8-87426C1E1343),
+oleautomation,
+helpstring("interface JITInterceptor is used for implementing a small profiler"),
+]
+interface JITInterceptor : IUnknown
+{
+
+};
+
+[
+uuid(F3AE991B-7D33-42D4-B5A0-15A96A8CEC34),
+version(1.0),
+helpstring("Profiler Type Library")
+]
+library JITInterceptorLib
+{
+   importlib("stdole32.tlb");
+	[uuid(941EC77E-F7C0-42C8-84E1-15FEFA3CE96F)]
+	coclass JITInterceptorImpl
+    {
+		[default] interface JITInterceptor;
+	};
+}
+

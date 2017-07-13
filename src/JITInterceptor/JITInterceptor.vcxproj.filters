@@ -1,0 +1,178 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Interceptor">
+      <UniqueIdentifier>{594eacc8-bce2-42a4-b040-47a812e172d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Interceptor">
+      <UniqueIdentifier>{b5556c13-2201-4ca3-8eba-957516ea4038}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Exports.def">
+      <Filter>Source Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PerformanceCounter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LockedStream.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StringHelper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SystemHelper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FunctionInfo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ILWriterBase.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ConvertedFatILWriter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FatILWriter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SmallILWriter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\Include\corhlpr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ProfilerData.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ProfilerLoggers.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FileLogger.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Interceptor.h">
+      <Filter>Header Files\Interceptor</Filter>
+    </ClInclude>
+    <ClInclude Include="JITInterceptor_h.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="JITInterceptorFactory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="JITInterceptorImpl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StringHelper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SystemHelper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FunctionInfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ILWriterBase.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ConvertedFatILWriter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FatILWriter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SmallILWriter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="corhlpr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ProfilerData.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FileLogger.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="InjectedILCodeStruct.h">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Interceptor.cpp">
+      <Filter>Source Files\Interceptor</Filter>
+    </ClCompile>
+    <ClCompile Include="CallHandlerExecutionStep_Execute.cpp">
+      <Filter>Source Files\Interceptor</Filter>
+    </ClCompile>
+    <ClCompile Include="HttpWebRequest_GetResponse.cpp">
+      <Filter>Source Files\Interceptor</Filter>
+    </ClCompile>
+    <ClCompile Include="SqlCommand_ExecuteScalar.cpp">
+      <Filter>Source Files\Interceptor</Filter>
+    </ClCompile>
+    <ClCompile Include="SqlCommand_ExecuteReader.cpp">
+      <Filter>Source Files\Interceptor</Filter>
+    </ClCompile>
+    <ClCompile Include="SqlCommand_ExecuteNonQuery.cpp">
+      <Filter>Source Files\Interceptor</Filter>
+    </ClCompile>
+    <ClCompile Include="RedisNativeClient_SendReceive.cpp">
+      <Filter>Source Files\Interceptor</Filter>
+    </ClCompile>
+    <ClCompile Include="MySqlCommand_ExecuteReader.cpp">
+      <Filter>Source Files\Interceptor</Filter>
+    </ClCompile>
+    <ClCompile Include="ModelBase_ModelSend.cpp">
+      <Filter>Source Files\Interceptor</Filter>
+    </ClCompile>
+    <ClCompile Include="FastDFSClient_DownloadFile.cpp">
+      <Filter>Source Files\Interceptor</Filter>
+    </ClCompile>
+    <ClCompile Include="FastDFSClient_UploadFile.cpp">
+      <Filter>Source Files\Interceptor</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneralIntercept.cpp">
+      <Filter>Source Files\Interceptor</Filter>
+    </ClCompile>
+    <ClCompile Include="JITInterceptor_i.c">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="JITInterceptorFactory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="JITInterceptorImpl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Midl Include="JITInterceptor.idl">
+      <Filter>Source Files</Filter>
+    </Midl>
+  </ItemGroup>
+</Project>
